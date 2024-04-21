@@ -1,0 +1,31 @@
+create a folder and open the folder
+
+right mouse in the folder open git bash 
+
+1. git status
+then type git status command - to see is there any git repository
+
+2. git init
+if there is no repository then type command git init to intilise empty repository
+now check again git status to check
+
+3. git add
+whenever changes made to the file - to stage the changes git add filename.fileextension command is used
+
+4. git commit -m "commit message"
+git commit os used to permanentely store the file to git.
+
+5. git config --global email.name "akarshkantimath@gmail.com"
+through out the current laptop or computer, where ever git repository are created by default will have the same email
+
+6. git config --global user.name "Akarsh Kantimath"
+through out the current laptop or computer, where ever git repository are created by default will have the same name, --global indicates even for differnt repository will have same name and email
+
+7. git log 
+this command is used to track the commit logs like commites person name, email, date and time of commit and commit message below it
+
+8.git log --oneline
+oneline command gives information about unique commit code (first 7 character) of each commit made to the git, One can go back to previous or new implementation - i.e. changes made to the code. One can choose the continue from where it left off or with new implemention continuing
+
+9. git checkout uniqueCommitCode filename.fileextension
+from the 8th point continuation, if user wish to 
