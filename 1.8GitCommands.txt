@@ -28,4 +28,4 @@ this command is used to track the commit logs like commites person name, email, 
 oneline command gives information about unique commit code (first 7 character) of each commit made to the git, One can go back to previous or new implementation - i.e. changes made to the code. One can choose the continue from where it left off or with new implemention continuing
 
 9. git checkout uniqueCommitCode filename.fileextension
-from the 8th point continuation, if user wish to go back
+from the 8th point continuation, if user wish to go back/forward with the changes of the code - checkout command is used
