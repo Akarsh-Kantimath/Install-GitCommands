@@ -29,3 +29,6 @@ oneline command gives information about unique commit code (first 7 character) o
 
 9. git checkout uniqueCommitCode filename.fileextension
 from the 8th point continuation, if user wish to go back/forward with the changes of the code - checkout command is used
+
+10. clear
+command clears the git bash screen 
