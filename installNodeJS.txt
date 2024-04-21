@@ -1,0 +1,13 @@
+Install node JS
+
+1. Go to cmd type node -v command 
+C:\Users\Akarsh Kantimath>node -v
+'node' is not recognized as an internal or external command,
+operable program or batch file.
+ if it's installed it will show the version, if not above message will be displayed
+
+ 2. in google search node JS, in there official site
+ download section download the msi file section, in between LTS(long term service), Current - choose one option based upon the project need
+
+ on installing node, once agin in cmd - check for version with same point 1 command
+ 
