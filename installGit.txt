@@ -1,0 +1,8 @@
+search in google git download
+download and install the git software
+
+to check whether git is installed or not
+in windows background right mouse click and open the Git bash
+type a command git --version
+to see which all the git commands are there type git --help
+
