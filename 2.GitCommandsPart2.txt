@@ -1,0 +1,27 @@
+1. git add .
+This command is used to stage more than one file
+
+2. git remote add origin repositoryLink 
+In Github create a new repository
+To add git hub repository link to local git 
+Use git remote add origin repositoryLink command
+
+3. git branch -M main
+to change branch name from master to main
+
+4. git push -u origin main
+to push the code files from local machine to git hub
+
+5. git pull origin main
+If somebody made changes to the code, now you want those changes in your system
+
+   git log
+6. git checkout uniqueCodeCommit
+If you don't like the changes made to the repository by others and you want to go back to the your last commit, then use git log then git checkout uniqueCodeCommit
+
+7. git clone CloneURL
+to clone any git repository to your system, if you want to contribute make changes and push the code
+the changes will be displayed in the repository 
+
+8. git pull origin main
+now, if you want others contribution changes in your syatem, then use git pull origin main to Pull the changes of the code
