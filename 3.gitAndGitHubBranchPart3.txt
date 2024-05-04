@@ -1,0 +1,31 @@
+1. git branch
+gives the information about list of branches
+* main
+  branchName1
+  branchName2
+-> * indicates current working branch name
+
+2. git branch app(newBranchName)
+to create new branch above command is used, it clones the current main branch repository - new implementation of the feature can be done in new branch
+
+3. git checkout app(newBranchName)
+to switch to other branches git checkout command is used
+
+git add .
+git commit -m "branch new implementation message"
+git push -u origin app(newBranchName) // new branch changes are pushed to the GitHub
+4. To push the new implemetation feature to created branch, above steps to be followed. With this new changes it only exists in the new branch not in the main branch
+
+5. To merge the newBranchChnages to Main branch, follow the below steps
+5.1 switch to main branch first -> git checkout main
+5.2 to merge the app(newBranchName) to main -> git merge app(newBranchName)
+====
+5.3 to have new branch implementation merged to GitHub -> git push -u origin main
+
+
+6. Delete the branch, why ? 
+To keep the git repository clean, once upon merging the new branch feature to main branch if the implementation is working fine then as a good practice we delete the feature implemeted branch
+Follow the below steps to delete a branch
+6.1 switch to main branch -> git checkout main
+6.2 git branch -d app(newBranchName) //from the local system repository branch is deleted
+6.3 to delete the branch from GitHub -> git push prigin --delete app(newBranchName)
