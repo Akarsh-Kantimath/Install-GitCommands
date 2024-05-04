@@ -1,0 +1,14 @@
+1. git branch
+gives the information about list of branches
+* main
+  branchName1
+  branchName2
+-> * indicates current working branch name
+
+2. git branch newBranchName
+to create new branch above command is used, it clones the current main branch repository - new implementation of the feature can be done in new branch
+
+3. git checkout newBranchName
+to switch to other branches git checkout command is used
+
+4. 
