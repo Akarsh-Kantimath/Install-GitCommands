@@ -1,0 +1,9 @@
+14/05/2024
+
+1. touch filename.extension
+touch command is used to create a file type
+
+To ignore or to aviod few files saving into repository
+first create touch .gitignore
+inside .gitignore file add the file extensions which you want to ignore Ex. if you wish to ignore all .class file then add *.class inside .gitignore file
+even we can ignore a folder by add folder name inside .gitignore file
