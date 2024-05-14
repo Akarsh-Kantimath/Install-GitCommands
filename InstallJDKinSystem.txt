@@ -1,0 +1,19 @@
+search oracle jdk in google
+
+in the page click on Download Java
+
+choose JDK Development Kit 22.0.1 downloads and operating system Windows
+
+once software is downloaded click on next next and install it 
+
+go go C drive follow the path C:\Program Files\Java\jdk-22\bin 
+Copy the path
+
+search of system Environment variable in start 
+click on Environment Variables
+In System variables table - click on the Path
+paste the C:\Program Files\Java\jdk-22\bin 
+click ok and ok and ok and exit the System Variable popup
+
+Now open CMD - type Java --version 
+It must show JDK version kit value - Then it is a successful installation of JDK in windows system
