@@ -17,9 +17,11 @@ git commit os used to permanentely store the file to git.
 
 5. git config --global email.name "akarshkantimath@gmail.com"
 through out the current laptop or computer, where ever git repository are created by default will have the same email
+=> to check the email we use git config user.email
 
 6. git config --global user.name "Akarsh Kantimath"
 through out the current laptop or computer, where ever git repository are created by default will have the same name, --global indicates even for differnt repository will have same name and email
+=> to check the name we use git config user.name
 
 7. git log 
 this command is used to track the commit logs like commites person name, email, date and time of commit and commit message below it
