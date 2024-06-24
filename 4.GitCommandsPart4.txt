@@ -4,11 +4,16 @@
 touch command is used to create a file type
 
 To ignore or to aviod few files saving into repository
-first create touch .gitignore
+2. first create touch .gitignore
 inside .gitignore file add the file extensions which you want to ignore Ex. if you wish to ignore all .class file then add *.class inside .gitignore file
 even we can ignore a folder by add folder name inside .gitignore file
 
 Reinitialized existing Git repository in D:/LearnPlaywright240624/.git/ error
 to repository if again initialised then to remove .git file 
-rm -rf .git ---> it deletes the .git file from repository
+3. rm -rf .git ---> it deletes the .git file from repository
+
+to list all the files tracked by git --> 4. git ls-files
+listing all filesin the working directory, including untracked files --> ls -R
+
+
 
