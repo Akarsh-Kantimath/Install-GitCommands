@@ -1,0 +1,206 @@
+Terminal commands are used to interact with the operating system through a command-line interface. Here’s a list of commonly used terminal commands across various operating systems like Unix/Linux, macOS, and Windows (with variations noted where applicable):
+
+### File and Directory Management
+
+- **`ls`**: List directory contents.
+  
+  ls
+  ls -la
+ 
+  (Windows equivalent: `dir`)
+
+- **`cd`**: Change directory.
+  
+  cd /path/to/directory
+  cd ..
+  cd ~
+ 
+
+- **`pwd`**: Print working directory.
+  
+  pwd
+ 
+
+- **`mkdir`**: Create a new directory.
+  
+  mkdir new_directory
+ 
+
+- **`rmdir`**: Remove an empty directory.
+  
+  rmdir directory_name
+ 
+
+- **`rm`**: Remove files or directories.
+  
+  rm file_name
+  rm -r directory_name
+ 
+
+- **`cp`**: Copy files or directories.
+  
+  cp source_file destination
+  cp -r source_directory destination
+ 
+
+- **`mv`**: Move or rename files or directories.
+  
+  mv old_name new_name
+  mv file_name /new/path
+ 
+
+### File Content Management
+
+- **`cat`**: Concatenate and display file content.
+  
+  cat file_name
+ 
+
+- **`more`**/**`less`**: View file content one screen at a time.
+  
+  more file_name
+  less file_name
+ 
+
+- **`head`**: Display the first lines of a file.
+  
+  head file_name
+  head -n 20 file_name
+ 
+
+- **`tail`**: Display the last lines of a file.
+  
+  tail file_name
+  tail -n 20 file_name
+ 
+
+- **`nano`**, **`vim`**, **`emacs`**: Text editors.
+  
+  nano file_name
+  vim file_name
+  emacs file_name
+ 
+
+### File Search
+
+- **`find`**: Search for files in a directory hierarchy.
+  
+  find /path -name file_name
+ 
+
+- **`grep`**: Search text using patterns.
+  
+  grep "search_text" file_name
+  grep -r "search_text" /path
+ 
+
+### System Information
+
+- **`whoami`**: Display the current user.
+  
+  whoami
+ 
+
+- **`hostname`**: Show or set the system’s hostname.
+  
+  hostname
+ 
+
+- **`uname`**: Print system information.
+  
+  uname -a
+ 
+
+- **`df`**: Display disk space usage.
+  
+  df -h
+ 
+
+- **`du`**: Estimate file space usage.
+  
+  du -sh /path/to/directory
+ 
+
+- **`top`**: Display Linux tasks.
+  
+  top
+ 
+
+- **`ps`**: Report a snapshot of current processes.
+  
+  ps aux
+ 
+
+### Networking
+
+- **`ping`**: Send ICMP ECHO_REQUEST to network hosts.
+  
+  ping google.com
+ 
+
+- **`ifconfig`**/**`ip`**: Configure network interfaces.
+  
+  ifconfig
+  ip a
+ 
+
+- **`netstat`**/**`ss`**: Network statistics.
+  
+  netstat -tuln
+  ss -tuln
+ 
+
+### Package Management (Linux)
+
+- **`apt-get`** (Debian/Ubuntu): Advanced Package Tool.
+  
+  sudo apt-get update
+  sudo apt-get install package_name
+ 
+
+- **`yum`** (RHEL/CentOS): Yellowdog Updater Modified.
+  
+  sudo yum update
+  sudo yum install package_name
+ 
+
+- **`dnf`** (Fedora): Dandified Yum.
+  
+  sudo dnf update
+  sudo dnf install package_name
+ 
+
+### Version Control (Git)
+
+- **`git clone`**: Clone a repository.
+  
+  git clone https://github.com/username/repository.git
+ 
+
+- **`git status`**: Show the working tree status.
+  
+  git status
+ 
+
+- **`git add`**: Add file contents to the index.
+  
+  git add file_name
+  git add .
+ 
+
+- **`git commit`**: Record changes to the repository.
+  
+  git commit -m "Commit message"
+ 
+
+- **`git push`**: Update remote refs along with associated objects.
+  
+  git push origin main
+ 
+
+- **`git pull`**: Fetch from and integrate with another repository or a local branch.
+  
+  git pull origin main
+ 
+
+These commands form the basis of navigating and managing the file system, processes, and software on Unix-like operating systems (Linux, macOS) and Windows. They also include basic commands for working with Git repositories.
