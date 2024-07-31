@@ -15,5 +15,11 @@ to repository if again initialised then to remove .git file
 to list all the files tracked by git --> 4. git ls-files
 listing all filesin the working directory, including untracked files --> ls -R
 
+how to change the file name if the file is already uploaded in the git hub ?
+To change a file name in a GitHub repository, you'll need to rename the file locally and then push the changes to GitHub. Here's a step-by-step guide on how to do it:
+1. git mv oldfilename newfilename
+2. git commit -m "Renamed oldfilename to newfilename"
+3. git push origin main
+
 
 
