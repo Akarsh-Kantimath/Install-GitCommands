@@ -1,0 +1,146 @@
+Git commands can be broadly categorized based on their functionality, such as setting up a repository, recording changes, branching and merging, inspecting a repository, and collaborating with others. Here is a comprehensive list of commonly used Git commands organized by category:
+
+### Setup and Configuration
+- `git config`: Configure user information, such as name and email.
+  
+  git config --global user.name "Your Name"
+  git config --global user.email "your.email@example.com"
+ 
+
+### Repository Setup
+- `git init`: Initialize a new Git repository.
+  
+  git init
+ 
+
+- `git clone`: Clone an existing repository.
+  
+  git clone https://github.com/username/repository.git
+ 
+
+### Recording Changes
+- `git add`: Add file contents to the staging area.
+  
+  git add <file>
+  git add .
+ 
+
+- `git commit`: Record changes to the repository.
+  
+  git commit -m "Commit message"
+ 
+
+- `git status`: Show the working tree status.
+  
+  git status
+ 
+
+- `git diff`: Show changes between commits, commit and working tree, etc.
+  
+  git diff
+ 
+
+- `git rm`: Remove files from the working tree and from the index.
+  
+  git rm <file>
+ 
+
+### Branching and Merging
+- `git branch`: List, create, or delete branches.
+  
+  git branch
+  git branch <branch-name>
+  git branch -d <branch-name>
+ 
+
+- `git checkout`: Switch branches or restore working tree files.
+  
+  git checkout <branch-name>
+  git checkout -b <new-branch-name>
+ 
+
+- `git merge`: Join two or more development histories together.
+  
+  git merge <branch-name>
+ 
+
+- `git rebase`: Reapply commits on top of another base tip.
+  
+  git rebase <branch-name>
+ 
+
+### Inspecting a Repository
+- `git log`: Show commit logs.
+  
+  git log
+ 
+
+- `git show`: Show various types of objects.
+  
+  git show
+ 
+
+- `git blame`: Show what revision and author last modified each line of a file.
+  
+  git blame <file>
+ 
+
+- `git ls-files`: Show information about files in the index and the working tree.
+  
+  git ls-files
+ 
+
+### Collaboration
+- `git fetch`: Download objects and refs from another repository.
+  
+  git fetch <remote>
+ 
+
+- `git pull`: Fetch from and integrate with another repository or a local branch.
+  
+  git pull <remote>
+ 
+
+- `git push`: Update remote refs along with associated objects.
+  
+  git push <remote> <branch>
+ 
+
+### Stashing and Cleaning
+- `git stash`: Stash the changes in a dirty working directory away.
+  
+  git stash
+  git stash pop
+ 
+
+- `git clean`: Remove untracked files from the working tree.
+  
+  git clean -f
+ 
+
+### Tagging
+- `git tag`: Create, list, delete or verify a tag object signed with GPG.
+  
+  git tag
+  git tag -a v1.0 -m "Version 1.0"
+ 
+
+### Remote Repositories
+- `git remote`: Manage set of tracked repositories.
+  
+  git remote -v
+  git remote add <name> <url>
+ 
+
+### Undoing Changes
+- `git revert`: Revert some existing commits.
+  
+  git revert <commit>
+ 
+
+- `git reset`: Reset current HEAD to the specified state.
+  
+  git reset --hard <commit>
+ 
+
+These are some of the most commonly used Git commands that will help you manage and navigate your repositories effectively.
