@@ -2,6 +2,8 @@ create a folder and open the folder
 
 right mouse in the folder open git bash 
 
+git bash navigation - Linux File and Directory Operations Commands - https://www.geeksforgeeks.org/linux-commands-cheat-sheet/
+
 1. git status
 then type git status command - to see is there any git repository
 
